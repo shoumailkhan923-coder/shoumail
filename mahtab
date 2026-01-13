@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Entry Services | Contact Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: #1e90ff;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        section {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #1e90ff;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 15px;
+            background: #1e90ff;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #187bcd;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #ddd;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MAHTAB</h1>
+    <p>Professional Data Entry Services</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2>About My Service</h2>
+        <p>
+            I provide accurate and fast data entry services including Excel data entry,
+            copy-paste work, PDF to Word/Excel, web research, and more.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="card">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p style="margin-top:10px;">
+            Or email me directly at: <b>mahtabjadoon3@gmail.com</b>
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Your Name | Data Entry Services
+</footer>
+
+</body>
+</html>
